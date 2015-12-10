@@ -1,0 +1,24 @@
+{
+  "name": "eho",
+  "version": "1.0.0",
+  "description": "An opinionated JavaScript linter",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckross01/eho.git"
+  },
+  "keywords": [
+    "linter",
+    "eho",
+    "style"
+  ],
+  "author": "Chris Ross <christopher.k.ross@gmail.com>",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckross01/eho/issues"
+  },
+  "homepage": "https://github.com/ckross01/eho#readme"
+}

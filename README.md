@@ -1,2 +1,2 @@
 # eho
-An opinionated JavaScript linter
+> An opinionated JavaScript linter
