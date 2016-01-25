@@ -20,5 +20,61 @@
   "bugs": {
     "url": "https://github.com/ckross01/eho/issues"
   },
-  "homepage": "https://github.com/ckross01/eho#readme"
+  "homepage": "https://github.com/ckross01/eho#readme",
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": [
+      "xo-space/esnext",
+      "xo-space",
+      "xo-react"
+    ],
+    "ecmaFeatures": {
+      "classes": true,
+      "jsx": true
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "plugins": [
+      "react"
+    ],
+    "rules": {
+      "arrow-parens": [
+        0
+      ],
+      "babel/arrow-parens": [
+        0
+      ],
+      "camelcase": [
+        0
+      ],
+      "curly": [
+        2,
+        "multi-line",
+        "consistent"
+      ],
+      "react/jsx-indent-props": [
+        0
+      ],
+      "no-negated-condition": [
+        0
+      ],
+      "no-var": [
+        0
+      ],
+      "prefer-const": [
+        0
+      ],
+      "space-before-function-paren": [
+        0
+      ]
+    }
+  },
+  "xo": {
+    "space": true,
+    "envs": [
+      "node"
+    ]
+  }
 }
